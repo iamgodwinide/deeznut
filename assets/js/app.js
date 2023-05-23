@@ -7,7 +7,7 @@ const overlay = document.querySelector(".overlay1");
 form.addEventListener("submit", e => {
     const input  = document.querySelector("input");
     e.preventDefault();
-    if(input.value.trim().toLocaleLowerCase() !== "deez") {
+    if(input.value.trim().toLocaleLowerCase() !== "$deez") {
         alert("Incorrect password");
         return false;
     }

@@ -20,6 +20,6 @@ form.addEventListener("submit", e => {
 
 
 video.addEventListener("ended", ()=> {
-    const tweet = `I just registered for $DEEZ nuts @deeznutsethcoin%0A%0A`;
-    location.href=`https://twitter.com/intent/tweet?text=${tweet}&url=${"deeznutseth.xyz"}`;
+    const tweet = `I just registered for $DEEZ nuts @deeznutsethcoin %0A%0Adeeznutseth.xyz`;
+    location.href=`https://twitter.com/intent/tweet?text=${tweet}`;
 });

@@ -20,7 +20,7 @@ form.addEventListener("submit", e => {
 
 
 video.addEventListener("ended", ()=> {
-    const tweet = `I just registered for $DEEZ nuts @deeznutsethcoin %0A%0A`;
+    const tweet = `I just registered for $DEEZ nuts @deeznutsethcoin%0A%0A`;
     window.open(`https://twitter.com/intent/tweet?text=${tweet}&url= deeznutseth.xyz`, '_blank');
     window.location.reload()
 });
